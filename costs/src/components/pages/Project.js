@@ -5,7 +5,7 @@ function Project() {
 
     const {id} = useParams()
 
-    const [projects, setProjects] = useState([])
+    const [project, setProjects] = useState([])
 
     useEffect(() => {
 
